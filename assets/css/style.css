@@ -1,0 +1,36 @@
+/* ------------------Box Sizing ------------------*/
+html{
+    box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing:inherit;
+    }
+    
+
+/* ------------------Colors ------------------
+
+Adobe using 1895 Spring catalogue cover - roses and peonies
+
+#A60832  red
+#D95995  pink
+#F2AF5C  yellow
+#EAD0BE  white
+
+*/
+/* ------------------Utility Styles ------------------*/
+
+.container{
+    width:80vw;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin:5px;
+    background-color:#D95995;
+    text-shadow: .5px .5px #D95995;
+    padding: 20px 40px;
+     }
