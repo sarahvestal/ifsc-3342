@@ -29,47 +29,41 @@ html {
 background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
 
 .container {
-  max-width: 80vw;
-  /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
+  width: 956px;
+  background: url("assets/img/grid.png");
   border: 1px solid #000;
   margin: 20px auto;
 }
 
 header.primary {
-  /* 920px */
-  width: 95.833%;
-  background: rgba(0, 0, 0, 0.4);
-  /* 20px */
-  margin: 2.083%;
-  padding: 2.173%;
+  width:920px;
+  background: grey;
+  margin: 20px;
+  padding: 20px;
   float: left;
 }
 
 #content {
-  /* 544px */
-  width: 56.666%;
-  background: rgba(0, 0, 0, 0.6);
-  margin-left: 2.083%;
+  width: 448px;
+  background: grey;
+  margin-left: 20px;
   padding: 2.173%;
   float: left;
 }
 
 aside {
-  /*356px*/
-  width: 37.083%;
-  background: rgba(0, 0, 0, 0.3);
-  margin-left: 2.083%;
-  padding: 2.173%;
+  width: 448px;
+  background: grey;
+  margin-left: 20px;
+  padding: 20px;
   float: left;
 }
 
 footer.primary {
-  /* 920px */
-  width: 95.833%;
-  background: rgba(0, 0, 0, 0.4);
-  /* 20px */
-  margin: 2.083%;
-  padding: 2.173%;
+  width: 920px;
+  background: grey;
+  margin: 20px;
+  padding: 20px;
   float: left;
 }
 
