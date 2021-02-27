@@ -27,10 +27,67 @@ Adobe using 1895 Spring catalogue cover - roses and peonies
     max-width: 900px;
 }
 
-body {
+/*body {
     font-family: 'Noto Sans', sans-serif;
     margin:5px;
     background-color:#D95995;
     text-shadow: .5px .5px #D95995;
     padding: 20px 40px;
-     }
+     }*/
+     
+/*Base CSS*/
+body {
+  font-family: "Droid Serif";
+  background: #374e5a;
+}
+
+.col{
+  background:#5a7b6c;
+  border-radius:3px;
+  padding:20px;
+  margin:20px auto;
+}
+
+.col:nth-child(odd){
+  background:#8fb87f;
+}
+
+.col p{
+  color:white;
+  text-shadow:1px 1px #000;
+}
+.container{
+  max-width:420px;
+  margin: 0 auto;
+}
+
+/*Tablet*/
+
+@media screen and (min-width:768px) {
+  
+  .col{
+    float:left;
+    width:48%;
+    margin:1%;
+  }
+  
+  .container {
+    max-width:900px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width:992px){
+  .col{
+    width:23%;
+  }
+  
+  .container{
+    max-width:1000px;
+  }
+  
+  
+  
+  
+}
